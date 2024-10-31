@@ -624,20 +624,16 @@ video {
   top: 16rem;
 }
 
-.bottom-0 {
-  bottom: 0px;
+.bottom-10 {
+  bottom: 2.5rem;
 }
 
-.left-4 {
-  left: 1rem;
+.bottom-8 {
+  bottom: 2rem;
 }
 
-.right-4 {
-  right: 1rem;
-}
-
-.top-0 {
-  top: 0px;
+.bottom-6 {
+  bottom: 1.5rem;
 }
 
 .z-0 {
@@ -670,6 +666,14 @@ video {
   margin-bottom: 5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-\[1\.5rem\] {
+  margin-bottom: 1.5rem;
+}
+
 .mb-\[1rem\] {
   margin-bottom: 1rem;
 }
@@ -684,10 +688,6 @@ video {
 
 .mb-\[3rem\] {
   margin-bottom: 3rem;
-}
-
-.mb-\[6rem\] {
-  margin-bottom: 6rem;
 }
 
 .mb-\[7rem\] {
@@ -710,36 +710,24 @@ video {
   margin-top: 3rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[8rem\] {
+  margin-top: 8rem;
+}
+
+.mt-\[12rem\] {
+  margin-top: 12rem;
+}
+
 .mt-\[4rem\] {
   margin-top: 4rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mb-\[\] {
-  margin-bottom: ;
-}
-
-.mb-\[4rem\] {
-  margin-bottom: 4rem;
-}
-
-.mb-\[1\.5rem\] {
-  margin-bottom: 1.5rem;
 }
 
 .block {
@@ -778,10 +766,6 @@ video {
   height: 300px;
 }
 
-.h-\[30px\] {
-  height: 30px;
-}
-
 .h-\[4rem\] {
   height: 4rem;
 }
@@ -794,16 +778,8 @@ video {
   height: auto;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-24 {
-  height: 6rem;
-}
-
-.h-6 {
-  height: 1.5rem;
+.h-full {
+  height: 100%;
 }
 
 .max-h-\[2\.5rem\] {
@@ -830,10 +806,6 @@ video {
   width: 2rem;
 }
 
-.w-\[30px\] {
-  width: 30px;
-}
-
 .w-\[70\%\] {
   width: 70%;
 }
@@ -850,20 +822,8 @@ video {
   width: 100%;
 }
 
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
 .max-w-4xl {
   max-width: 56rem;
-}
-
-.max-w-5xl {
-  max-width: 64rem;
 }
 
 .-translate-x-1\/2 {
@@ -883,6 +843,14 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
 .items-center {
   align-items: center;
 }
@@ -899,12 +867,12 @@ video {
   gap: 2rem;
 }
 
-.gap-\[3rem\] {
-  gap: 3rem;
-}
-
 .gap-\[1\.5rem\] {
   gap: 1.5rem;
+}
+
+.gap-\[3rem\] {
+  gap: 3rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -987,10 +955,6 @@ video {
   padding: 1rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1011,9 +975,9 @@ video {
   padding-right: 2rem;
 }
 
-.px-\[2rem\] {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.px-\[1rem\] {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-2 {
@@ -1039,16 +1003,6 @@ video {
 .py-\[5rem\] {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.px-\[1rem\] {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .pb-\[1rem\] {
@@ -1091,12 +1045,16 @@ video {
   padding-top: 6rem;
 }
 
-.pt-\[7rem\] {
-  padding-top: 7rem;
-}
-
 .pt-\[8rem\] {
   padding-top: 8rem;
+}
+
+.pt-\[10rem\] {
+  padding-top: 10rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .text-left {
@@ -1129,6 +1087,14 @@ video {
   line-height: 2.5rem;
 }
 
+.text-\[0\.875rem\] {
+  font-size: 0.875rem;
+}
+
+.text-\[1\.25rem\] {
+  font-size: 1.25rem;
+}
+
 .text-\[1\.5rem\] {
   font-size: 1.5rem;
 }
@@ -1145,10 +1111,6 @@ video {
   font-size: 17px;
 }
 
-.text-\[1rem\] {
-  font-size: 1rem;
-}
-
 .text-\[30px\] {
   font-size: 30px;
 }
@@ -1161,14 +1123,6 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-\[0\.875rem\] {
-  font-size: 0.875rem;
-}
-
-.text-\[1\.25rem\] {
-  font-size: 1.25rem;
 }
 
 .font-bold {
@@ -1189,10 +1143,6 @@ video {
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.leading-\[1\] {
-  line-height: 1;
 }
 
 .leading-tight {
@@ -1224,20 +1174,6 @@ video {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.transition-transform {
-  transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.duration-500 {
-  transition-duration: 500ms;
-}
-
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Importar la fuente Montserrat desde Google Fonts */
@@ -1308,24 +1244,16 @@ video {
     margin-top: 4rem;
   }
 
+  .md\:mt-\[12rem\] {
+    margin-top: 12rem;
+  }
+
   .md\:block {
     display: block;
   }
 
   .md\:h-\[500px\] {
     height: 500px;
-  }
-
-  .md\:h-8 {
-    height: 2rem;
-  }
-
-  .md\:h-10 {
-    height: 2.5rem;
-  }
-
-  .md\:h-32 {
-    height: 8rem;
   }
 
   .md\:w-1\/2 {
@@ -1338,14 +1266,6 @@ video {
 
   .md\:w-\[50\%\] {
     width: 50%;
-  }
-
-  .md\:w-8 {
-    width: 2rem;
-  }
-
-  .md\:w-10 {
-    width: 2.5rem;
   }
 
   .md\:flex-row {
@@ -1365,6 +1285,11 @@ video {
     padding-right: 1.25rem;
   }
 
+  .md\:px-\[2rem\] {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -1373,11 +1298,6 @@ video {
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-  }
-
-  .md\:px-\[2rem\] {
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
 
   .md\:pt-\[15rem\] {
@@ -1402,12 +1322,24 @@ video {
     line-height: 1;
   }
 
+  .md\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
+  }
+
   .md\:text-\[1\.7rem\] {
     font-size: 1.7rem;
   }
 
+  .md\:text-\[1rem\] {
+    font-size: 1rem;
+  }
+
   .md\:text-\[26px\] {
     font-size: 26px;
+  }
+
+  .md\:text-\[30px\] {
+    font-size: 30px;
   }
 
   .md\:text-\[35px\] {
@@ -1436,20 +1368,16 @@ video {
     line-height: 1.75rem;
   }
 
-  .md\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
-  }
-
-  .md\:text-\[1rem\] {
-    font-size: 1rem;
-  }
-
-  .md\:text-\[30px\] {
-    font-size: 30px;
+  .md\:text-\[18px\] {
+    font-size: 18px;
   }
 
   .md\:leading-\[1\] {
     line-height: 1;
+  }
+
+  .md\:text-\[\] {
+    color: ;
   }
 }
 
@@ -1481,10 +1409,6 @@ video {
 
   .lg\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
-  }
-
-  .lg\:gap-\[3rem\] {
-    gap: 3rem;
   }
 
   .lg\:py-0 {

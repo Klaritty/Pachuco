@@ -3,7 +3,7 @@
         <!-- Columna de texto -->
         <div class="w-full md:w-1/2 p-4">
             <h3 class="text-3xl text-center md:text-left font-Montse text-white md:text-4xl font-bold mb-2">¡Que empiece el baile!</h3>
-            <p class="text-lg text-center md:text-left md:text-xl">¿Listo para que tu marca genere emociones? Baila con nosotros y descubre las soluciones que tenemos para ti.</p>
+            <p class="text-lg text-center md:text-left md:text-[18px]">¿Listo para que tu marca genere emociones? Baila con nosotros y descubre las soluciones que tenemos para ti.</p>
         </div>
 
         <!-- Columna del botón -->

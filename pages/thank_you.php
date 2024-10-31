@@ -37,8 +37,8 @@ Template Name: Thank You
         </div>
 
         <!-- Texto principal en el centro -->
-        <div class="pt-[6rem] text-center">
-            <h1 class="text-4xl md:text-5xl text-white font-Montse font-bold mb-20">
+        <div class="flex flex-col justify-center items-center h-full"> <!-- Contenedor flex -->
+            <h1 class="text-4xl md:text-5xl text-white font-Montse font-bold pb-20 md:mt-[12rem]"> <!-- Ajuste de margen -->
                 <span class="text-red-500">¡GRACIAS</span> POR QUERER
                 <span class="text-red-500"> BAILAR</span><br>
                 <span class="text-white">CON NOSOTROS!</span>
@@ -46,7 +46,7 @@ Template Name: Thank You
         </div>
 
         <!-- Caja negra transparente con texto -->
-        <div class="absolute bottom-20 left-1/2 text-center transform -translate-x-1/2 bg-black bg-opacity-60 text-white p-10 rounded-lg max-w-4xl w-full md:w-3/4">
+        <div class="absolute bottom-6 left-1/2 text-center transform -translate-x-1/2 bg-black bg-opacity-60 text-white p-10 rounded-lg max-w-4xl w-full md:w-3/4">
             <p class="text-base md:text-lg font-Montse">
                 Pronto estaremos sacando los mejores pasos en la pista de baile junto con las mejores estrategias para que tu marca genere emoción.
             </p>
@@ -58,7 +58,7 @@ Template Name: Thank You
                 <a href="https://www.instagram.com/pachucolens/" target="_blank">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/ThankYou/TYP_Icon_Instagram.webp" alt="Instagram" class="w-8 h-8">
                 </a>
-                <a href="https://tiktok.com/@tu-cuenta" target="_blank">
+                <a href="https://www.tiktok.com/@pachuco_digital" target="_blank">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/ThankYou/TYP_Icon_Tk.webp" alt="TikTok" class="w-8 h-8">
                 </a>
                 <a href="https://www.linkedin.com/company/pachuco-digital/mycompany/" target="_blank">
