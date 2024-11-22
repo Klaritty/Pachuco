@@ -121,24 +121,24 @@
 
 
 
-/*!* Ajustar el símbolo de requerido *!*/
-/*.ninja-forms-req-symbol {*/
-/*    display: none; */
-/*}*/
-/*!* Ocultar símbolo de campo requerido *!*/
-/*.ninja-forms-req-symbol {*/
-/*    display: none; */
-/*}*/
+/* Ajustar el símbolo de requerido */
+.ninja-forms-req-symbol {
+    display: none;
+}
+/* Ocultar símbolo de campo requerido */
+.ninja-forms-req-symbol {
+    display: none;
+}
 
-/*!* Ocultar título del formulario *!*/
-/*#nf-form-title-1 {*/
-/*    display: none!important; !* Ocultar título *!*/
-/*}*/
+/* Ocultar título del formulario */
+#nf-form-title-1 {
+    display: none!important; /* Ocultar título */
+}
 
-/*!* Ocultar mensajes de error *!*/
-/*.nf-after-form-content {*/
-/*    display: none!important; !* Ocultar contenido después del formulario *!*/
-/*}*/
+/* Ocultar mensajes de error */
+.nf-after-form-content {
+    display: none!important; /* Ocultar contenido después del formulario */
+}
 
 /*.nf-error.field-wrap .nf-field-element:after {*/
 /*    display: none!important; !* Ocultar mensaje de error *!*/
