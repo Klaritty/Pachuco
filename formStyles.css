@@ -16,11 +16,11 @@
     width: 100%!important; /* Ancho completo */
 }
 
-.nf-field-element input {
-    background-color: rgba(0, 0, 0, 0.6) !important;
-    color: white !important; /* Texto blanco */
-    font-family: 'Montserrat', sans-serif;
-}
+/*.nf-field-element input {*/
+/*    background-color: rgba(0, 0, 0, 0.6) !important;*/
+/*    color: white !important; !* Texto blanco *!*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*}*/
 
 
 /* Estilo de input: mensaje */
