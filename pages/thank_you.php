@@ -32,7 +32,7 @@ Template Name: Thank You
             flex-direction: column;
             height: 100vh;
             text-align: center;
-            margin-top: 4rem;            
+            padding-top: 4rem;            
         }
         .logo-container {
             position: absolute;
