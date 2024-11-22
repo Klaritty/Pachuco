@@ -14,7 +14,7 @@ Template Name: Thank You
         href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco/node_modules/swiper/swiper-bundle.min.css">
 
     <title>Pachuco</title>
-    <link rel="icon" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco/Assets/Landing/Favicon.ico"
+  <link rel="icon" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco/Assetss/Landing/Favicon.ico" type="image/x-icon" />
         type="image/x-icon" />
 
     <?php wp_head(); ?>
