@@ -32,7 +32,7 @@ Template Name: Thank You
             flex-direction: column;
             height: 100vh;
             text-align: center;
-            padding-top: 4rem;            
+            padding-top: 10rem;            
         }
         .logo-container {
             position: absolute;
@@ -53,7 +53,7 @@ Template Name: Thank You
 
         <!-- Contenedor principal centrado -->
         <div class="content-wrapper">
-            <div class="mt-[9rem]">
+        
 
                 <!-- Texto principal en el centro -->
                 <h1 class="text-4xl md:text-5xl text-white font-Montse font-bold mt-[11.7rem]">
@@ -61,7 +61,8 @@ Template Name: Thank You
                     <span class="text-red-500"> BAILAR</span><br>
                     <span class="text-white">CON NOSOTROS!</span>
                 </h1>
-            </div>
+       
+<br>
 <br>
             <!-- Caja negra transparente con texto -->
             <div class="bg-black bg-opacity-60 text-white p-10 rounded-lg max-w-4xl w-full md:w-3/4">
