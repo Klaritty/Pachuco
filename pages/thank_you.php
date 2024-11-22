@@ -53,7 +53,7 @@ Template Name: Thank You
         <!-- Contenedor principal centrado -->
         <div class="content-wrapper">
             <!-- Texto principal en el centro -->
-            <h1 class="text-4xl md:text-5xl text-white font-Montse font-bold pb-12 md:mt-[12rem]">
+            <h1 class="text-4xl md:text-5xl text-white font-Montse font-bold pb-20 md:mt-[10rem]">
                 <span class="text-red-500">¡GRACIAS</span> POR QUERER
                 <span class="text-red-500"> BAILAR</span><br>
                 <span class="text-white">CON NOSOTROS!</span>
