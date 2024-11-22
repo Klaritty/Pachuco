@@ -1,36 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
 
-/* Quitar padding del contenedor del formulario */
-/*.nf-form-content {*/
-/*    padding: 0!important;*/
-/*}*/
+ /*Quitar padding del contenedor del formulario*/
+.nf-form-content {
+    padding: 0!important;
+}
 
 /* Estilo de los inputs: Nombre, Email, Número, Empresa */
-/*.nf-form-content input.ninja-forms-field {*/
-/*    height: 50px!important; !* Altura de los inputs *!*/
-/*    background-color: #000000!important; !* Fondo negro *!*/
-/*    color: white!important; !* Texto blanco *!*/
-/*    border: 0.5px solid #ffdd96!important; !* Borde blanco *!*/
-/*    border-radius: 10px!important; !* Bordes ligeramente redondeados *!*/
-/*    margin-bottom: 10px!important; !* Espacio inferior *!*/
-/*    padding: 10px!important; !* Padding interno *!*/
-/*    font-size: 16px!important; !* Texto más grande *!*/
-/*    width: 100%!important; !* Ancho completo *!*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*}*/
+.nf-form-content input.ninja-forms-field {
+    height: 50px!important; /* Altura de los inputs */
+    border: 0.5px solid #ffdd96!important; /* Borde blanco */
+    border-radius: 10px!important; /* Bordes ligeramente redondeados */
+    margin-bottom: 10px!important; /* Espacio inferior */
+    padding: 10px!important; /* Padding interno */
+    font-size: 16px!important; /* Texto más grande */
+    width: 100%!important; /* Ancho completo */
+}
 
+.nf-field-element input {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    color: white !important; /* Texto blanco */
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 /* Estilo de input: mensaje */
-/*#nf-field-3 {*/
-/*    border-radius: 15px!important; !* Bordes ligeramente redondeados *!*/
-/*    padding: 10px!important; !* Aumentar padding *!*/
-/*    color: white!important; !* Texto blanco *!*/
-/*    background-color: #000000!important; !* Fondo negro *!*/
-/*    margin-bottom: 20px!important; !* Espacio inferior *!*/
-/*    border: 1px solid white!important; !* Borde blanco *!*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*}*/
+#nf-field-3 {
+    border-radius: 15px!important; /* Bordes ligeramente redondeados */
+    padding: 10px!important; /* Aumentar padding */
+    color: white!important; /* Texto blanco */
+    background-color: #000000!important; /* Fondo negro */
+    margin-bottom: 20px!important; /* Espacio inferior */
+    border: 1px solid white!important; /* Borde blanco */
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* Ocultar contenido antes del formulario */
 .nf-before-form-content {
@@ -88,38 +90,35 @@
     text-align: center; /* Asegurar el centrado del texto */
 }
 
+/* Estilo del checkbox */
+#nf-field-7 {
+    display: none;
+    margin-bottom: 1rem;
+}
 
-/*!* Estilo del checkbox *!*/
-/*#nf-field-7 {*/
-/*    display: none; */
-/*    margin-bottom: 1rem;*/
-/*}*/
+.checkbox-container.label-right label::before {
+    content: "";
+    padding-left: 0.4rem;
+    top: 100%;
+    width: 23px;
+    height: 23px;
+    color: white !important;
+    font-size: medium !important;
+    font-weight: 400 !important;
+    font-family: 'Montserrat', sans-serif;
+}
 
-/*.checkbox-container.label-right label::before {*/
-/*    content: ""; */
-/*    padding-left: 0.4rem;*/
-/*    top: 100%; */
-/*    width: 23px; */
-/*    height: 23px; */
-/*    color: white !important;*/
-/*    font-size: medium !important;*/
-/*    font-weight: 400 !important;*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*}*/
-
-/*.checkbox-container.label-right label::after {*/
-/*    content: ""; */
-/*   margin-bottom: 1rem;*/
-/*    top: 50%; */
-/*    width: 23px !important;*/
-/*    height: 23px !important; */
-/*    border: 2px solid #ce3a3a !important; */
-/*    border-radius: 5px; */
-/*    background-color: #ce3a3a !important; */
-/*    font-family: 'Montserrat', sans-serif;*/
-/*}*/
-
-
+.checkbox-container.label-right label::after {
+    content: "";
+   margin-bottom: 1rem;
+    top: 50%;
+    width: 23px !important;
+    height: 23px !important;
+    border: 2px solid #ce3a3a !important;
+    border-radius: 5px;
+    background-color: #ce3a3a !important;
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* Ajustar el símbolo de requerido */
 .ninja-forms-req-symbol {
