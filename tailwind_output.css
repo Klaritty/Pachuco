@@ -1013,6 +1013,10 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1206,6 +1210,10 @@ video {
 
   .md\:mt-\[8rem\] {
     margin-top: 8rem;
+  }
+
+  .md\:mt-\[10rem\] {
+    margin-top: 10rem;
   }
 
   .md\:block {
