@@ -144,48 +144,47 @@
 /*    display: none!important; !* Ocultar mensaje de error *!*/
 /*}*/
 
-/*!* Estilo del select *!*/
+/* Estilo del select */
+.nf-form-content .list-select-wrap .nf-field-element {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
 
-/*.nf-form-content .list-select-wrap .nf-field-element {*/
-/*    background: white; */
-/*    border-radius: 10px; */
-/*    margin-bottom: 1rem;*/
-/*}*/
-
-/*.nf-form-content .list-select-wrap .nf-field-element select {*/
-/*    background: transparent; */
-/*    border-radius: 10px; */
-/*    color: #000; */
-/*    padding: 10px; */
-/*    font-family: 'Montserrat', sans-serif;*/
-/*    font-weight: 500;*/
-/*}*/
-
-
-/*.nf-form-content .list-select-wrap .nf-field-element > div {*/
-/*    background: transparent; */
-/*    border: none; */
-/*}*/
+.nf-form-content .list-select-wrap .nf-field-element select {
+    background: transparent;
+    border-radius: 10px;
+    color: #000;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
 
 
-/*.nf-form-content .list-select-wrap .nf-field-element input:not([type=button]),*/
-/*.nf-form-content .list-select-wrap .nf-field-element textarea {*/
-/*    background: transparent; */
-/*    border-radius: 0; */
-/*    color: #787878; */
-/*    transition: all .5s; */
-/*}*/
+.nf-form-content .list-select-wrap .nf-field-element > div {
+    background: transparent;
+    border: none;
+}
 
 
-/*.nf-form-content .list-select-wrap .nf-field-element > div {*/
-/*    background: transparent !important; */
-/*    border: none !important; */
-/*}*/
+.nf-form-content .list-select-wrap .nf-field-element input:not([type=button]),
+.nf-form-content .list-select-wrap .nf-field-element textarea {
+    background: transparent;
+    border-radius: 0;
+    color: #787878;
+    transition: all .5s;
+}
 
-/*.nf-form-content .list-select-wrap .nf-field-element div {*/
-/*    background: transparent; */
-/*    border: none; */
-/*}*/
+
+.nf-form-content .list-select-wrap .nf-field-element > div {
+    background: transparent !important;
+    border: none !important;
+}
+
+.nf-form-content .list-select-wrap .nf-field-element div {
+    background: transparent;
+    border: none;
+}
 
 .nf-form-content #nf-field-1-container .nf-field .nf-field-element input {
     padding-left: 40px!important;
