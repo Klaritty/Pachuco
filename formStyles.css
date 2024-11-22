@@ -54,39 +54,39 @@
 /*    background: #000;*/
 /*}*/
 
-/*#nf-field-4 {*/
-/*    height: 50px!important; !* Altura del botón igual a los inputs *!*/
-/*    margin-top: 2rem!important;*/
-/*    margin-bottom: 20px!important; !* Aumentar el margen inferior *!*/
-/*    padding: 5px 40px!important; !* Padding interno *!*/
-/*    background: linear-gradient(90deg, #009245, #39b54a)!important; !* Fondo personalizado *!*/
-/*    color: white!important; !* Texto blanco *!*/
-/*    border-radius: 25px!important; !* Bordes ligeramente redondeados *!*/
-/*    border: none!important; !* Sin borde *!*/
-/*    width: 100%!important; !* Ancho completo *!*/
-/*    font-weight: bold;*/
-/*    font-size: 25px!important; !* Tamaño de fuente más grande *!*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*    display: flex; !* Para centrar *!*/
-/*    justify-content: center; !* Centrar horizontalmente *!*/
-/*    align-items: center; !* Centrar verticalmente *!*/
-/*    text-align: center; !* Asegurar el centrado del texto *!*/
-/*}*/
+#nf-field-4 {
+    height: 50px!important; /* Altura del botón igual a los inputs */
+    margin-top: 2rem!important;
+    margin-bottom: 20px!important; /* Aumentar el margen inferior */
+    padding: 5px 40px!important; /* Padding interno */
+    background: linear-gradient(90deg, #009245, #39b54a)!important; /* Fondo personalizado */
+    color: white!important; /* Texto blanco */
+    border-radius: 25px!important; /* Bordes ligeramente redondeados */
+    border: none!important; /* Sin borde */
+    width: 100%!important; /* Ancho completo */
+    font-weight: bold;
+    font-size: 25px!important; /* Tamaño de fuente más grande */
+    font-family: 'Montserrat', sans-serif;
+    display: flex; /* Para centrar */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    text-align: center; /* Asegurar el centrado del texto */
+}
 
-/*#nf-field-4:hover {*/
-/*    background: linear-gradient(90deg, #009245, #39b54a)!important; !* Fondo personalizado *!*/
-/*    color: white!important; !* Texto blanco *!*/
-/*    border-radius: 25px!important; !* Bordes ligeramente redondeados *!*/
-/*    border: none!important; !* Sin borde *!*/
-/*    width: 100%!important; !* Ancho completo *!*/
-/*    font-weight: bold;*/
-/*    font-size: 25px!important; !* Tamaño de fuente más grande en hover *!*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*    display: flex; !* Para centrar *!*/
-/*    justify-content: center; !* Centrar horizontalmente *!*/
-/*    align-items: center; !* Centrar verticalmente *!*/
-/*    text-align: center; !* Asegurar el centrado del texto *!*/
-/*}*/
+#nf-field-4:hover {
+    background: linear-gradient(90deg, #009245, #39b54a)!important; /* Fondo personalizado */
+    color: white!important; /* Texto blanco */
+    border-radius: 25px!important; /* Bordes ligeramente redondeados */
+    border: none!important; /* Sin borde */
+    width: 100%!important; /* Ancho completo */
+    font-weight: bold;
+    font-size: 25px!important; /* Tamaño de fuente más grande en hover */
+    font-family: 'Montserrat', sans-serif;
+    display: flex; /* Para centrar */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    text-align: center; /* Asegurar el centrado del texto */
+}
 
 
 /*!* Estilo del checkbox *!*/
@@ -140,9 +140,9 @@
     display: none!important; /* Ocultar contenido después del formulario */
 }
 
-/*.nf-error.field-wrap .nf-field-element:after {*/
-/*    display: none!important; !* Ocultar mensaje de error *!*/
-/*}*/
+.nf-error.field-wrap .nf-field-element:after {
+    display: none!important; /* Ocultar mensaje de error */
+}
 
 /* Estilo del select */
 .nf-form-content .list-select-wrap .nf-field-element {
