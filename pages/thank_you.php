@@ -32,7 +32,6 @@ Template Name: Thank You
             flex-direction: column;
             height: 100vh;
             text-align: center;
-            margin-top: -4rem; /* Ajuste para mover el contenido hacia arriba */
         }
         .logo-container {
             position: absolute;
@@ -54,7 +53,7 @@ Template Name: Thank You
         <!-- Contenedor principal centrado -->
         <div class="content-wrapper">
             <!-- Texto principal en el centro -->
-            <h1 class="text-4xl md:text-5xl text-white font-Montse font-bold pb-20">
+            <h1 class="text-4xl md:text-5xl text-white font-Montse font-bold pb-20 md:mt-[12rem]">
                 <span class="text-red-500">¡GRACIAS</span> POR QUERER
                 <span class="text-red-500"> BAILAR</span><br>
                 <span class="text-white">CON NOSOTROS!</span>
