@@ -1,225 +1,225 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');*/
 
-/* Quitar padding del contenedor del formulario */
-.nf-form-content {
-    padding: 0!important;
-}
+/*!* Quitar padding del contenedor del formulario *!*/
+/*.nf-form-content {*/
+/*    padding: 0!important;*/
+/*}*/
 
-/* Estilo de los inputs: Nombre, Email, Número, Empresa */
-.nf-form-content input.ninja-forms-field {
-    height: 50px!important; /* Altura de los inputs */
-    background-color: #000000!important; /* Fondo negro */
-    color: white!important; /* Texto blanco */
-    border: 0.5px solid #ffdd96!important; /* Borde blanco */
-    border-radius: 10px!important; /* Bordes ligeramente redondeados */
-    margin-bottom: 10px!important; /* Espacio inferior */
-    padding: 10px!important; /* Padding interno */
-    font-size: 16px!important; /* Texto más grande */
-    width: 100%!important; /* Ancho completo */
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-
-/* Estilo de input: mensaje */
-#nf-field-3 {
-    border-radius: 15px!important; /* Bordes ligeramente redondeados */
-    padding: 10px!important; /* Aumentar padding */
-    color: white!important; /* Texto blanco */
-    background-color: #000000!important; /* Fondo negro */
-    margin-bottom: 20px!important; /* Espacio inferior */
-    border: 1px solid white!important; /* Borde blanco */
-    font-family: 'Montserrat', sans-serif;
-}
-
-/* Ocultar contenido antes del formulario */
-.nf-before-form-content {
-    display: none!important;
-}
-
-/* Estilo de los labels */
-.nf-field-label label {
-    font-size: 12px!important; /* Tamaño de fuente */
-    color: white!important; /* Color blanco */
-    font-family: 'Montserrat', sans-serif; /* Fuente */
-}
-
-/* Ajustar margen de los campos */
-.nf-field-container {
-    margin-bottom: 5px!important; /* Espacio entre campos */
-}
-
-
-#nf-field-6-wrap > .nf-field-elemt{
-    background: #000;
-}
-
-#nf-field-4 {
-    height: 50px!important; /* Altura del botón igual a los inputs */
-    margin-top: 2rem!important;
-    margin-bottom: 20px!important; /* Aumentar el margen inferior */
-    padding: 5px 40px!important; /* Padding interno */
-    background: linear-gradient(90deg, #009245, #39b54a)!important; /* Fondo personalizado */
-    color: white!important; /* Texto blanco */
-    border-radius: 25px!important; /* Bordes ligeramente redondeados */
-    border: none!important; /* Sin borde */
-    width: 100%!important; /* Ancho completo */
-    font-weight: bold;
-    font-size: 25px!important; /* Tamaño de fuente más grande */
-    font-family: 'Montserrat', sans-serif;
-    display: flex; /* Para centrar */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    text-align: center; /* Asegurar el centrado del texto */
-}
-
-#nf-field-4:hover {
-    background: linear-gradient(90deg, #009245, #39b54a)!important; /* Fondo personalizado */
-    color: white!important; /* Texto blanco */
-    border-radius: 25px!important; /* Bordes ligeramente redondeados */
-    border: none!important; /* Sin borde */
-    width: 100%!important; /* Ancho completo */
-    font-weight: bold;
-    font-size: 25px!important; /* Tamaño de fuente más grande en hover */
-    font-family: 'Montserrat', sans-serif;
-    display: flex; /* Para centrar */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    text-align: center; /* Asegurar el centrado del texto */
-}
-
-
-/* Estilo del checkbox */
-#nf-field-7 {
-    display: none; 
-    margin-bottom: 1rem;
-}
-
-.checkbox-container.label-right label::before {
-    content: ""; 
-    padding-left: 0.4rem;
-    top: 100%; 
-    width: 23px; 
-    height: 23px; 
-    color: white !important;
-    font-size: medium !important;
-    font-weight: 400 !important;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.checkbox-container.label-right label::after {
-    content: ""; 
-   margin-bottom: 1rem;
-    top: 50%; 
-    width: 23px !important;
-    height: 23px !important; 
-    border: 2px solid #ce3a3a !important; 
-    border-radius: 5px; 
-    background-color: #ce3a3a !important; 
-    font-family: 'Montserrat', sans-serif;
-}
+/*!* Estilo de los inputs: Nombre, Email, Número, Empresa *!*/
+/*.nf-form-content input.ninja-forms-field {*/
+/*    height: 50px!important; !* Altura de los inputs *!*/
+/*    background-color: #000000!important; !* Fondo negro *!*/
+/*    color: white!important; !* Texto blanco *!*/
+/*    border: 0.5px solid #ffdd96!important; !* Borde blanco *!*/
+/*    border-radius: 10px!important; !* Bordes ligeramente redondeados *!*/
+/*    margin-bottom: 10px!important; !* Espacio inferior *!*/
+/*    padding: 10px!important; !* Padding interno *!*/
+/*    font-size: 16px!important; !* Texto más grande *!*/
+/*    width: 100%!important; !* Ancho completo *!*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*}*/
 
 
 
-/* Ajustar el símbolo de requerido */
-.ninja-forms-req-symbol {
-    display: none; 
-}
-/* Ocultar símbolo de campo requerido */
-.ninja-forms-req-symbol {
-    display: none; 
-}
+/*!* Estilo de input: mensaje *!*/
+/*#nf-field-3 {*/
+/*    border-radius: 15px!important; !* Bordes ligeramente redondeados *!*/
+/*    padding: 10px!important; !* Aumentar padding *!*/
+/*    color: white!important; !* Texto blanco *!*/
+/*    background-color: #000000!important; !* Fondo negro *!*/
+/*    margin-bottom: 20px!important; !* Espacio inferior *!*/
+/*    border: 1px solid white!important; !* Borde blanco *!*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*}*/
 
-/* Ocultar título del formulario */
-#nf-form-title-1 {
-    display: none!important; /* Ocultar título */
-}
+/*!* Ocultar contenido antes del formulario *!*/
+/*.nf-before-form-content {*/
+/*    display: none!important;*/
+/*}*/
 
-/* Ocultar mensajes de error */
-.nf-after-form-content {
-    display: none!important; /* Ocultar contenido después del formulario */
-}
+/*!* Estilo de los labels *!*/
+/*.nf-field-label label {*/
+/*    font-size: 12px!important; !* Tamaño de fuente *!*/
+/*    color: white!important; !* Color blanco *!*/
+/*    font-family: 'Montserrat', sans-serif; !* Fuente *!*/
+/*}*/
 
-.nf-error.field-wrap .nf-field-element:after {
-    display: none!important; /* Ocultar mensaje de error */
-}
-
-/* Estilo del select */
-
-.nf-form-content .list-select-wrap .nf-field-element {
-    background: white; 
-    border-radius: 10px; 
-    margin-bottom: 1rem;
-}
-
-.nf-form-content .list-select-wrap .nf-field-element select {
-    background: transparent; 
-    border-radius: 10px; 
-    color: #000; 
-    padding: 10px; 
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-}
+/*!* Ajustar margen de los campos *!*/
+/*.nf-field-container {*/
+/*    margin-bottom: 5px!important; !* Espacio entre campos *!*/
+/*}*/
 
 
-.nf-form-content .list-select-wrap .nf-field-element > div {
-    background: transparent; 
-    border: none; 
-}
+/*#nf-field-6-wrap > .nf-field-elemt{*/
+/*    background: #000;*/
+/*}*/
+
+/*#nf-field-4 {*/
+/*    height: 50px!important; !* Altura del botón igual a los inputs *!*/
+/*    margin-top: 2rem!important;*/
+/*    margin-bottom: 20px!important; !* Aumentar el margen inferior *!*/
+/*    padding: 5px 40px!important; !* Padding interno *!*/
+/*    background: linear-gradient(90deg, #009245, #39b54a)!important; !* Fondo personalizado *!*/
+/*    color: white!important; !* Texto blanco *!*/
+/*    border-radius: 25px!important; !* Bordes ligeramente redondeados *!*/
+/*    border: none!important; !* Sin borde *!*/
+/*    width: 100%!important; !* Ancho completo *!*/
+/*    font-weight: bold;*/
+/*    font-size: 25px!important; !* Tamaño de fuente más grande *!*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    display: flex; !* Para centrar *!*/
+/*    justify-content: center; !* Centrar horizontalmente *!*/
+/*    align-items: center; !* Centrar verticalmente *!*/
+/*    text-align: center; !* Asegurar el centrado del texto *!*/
+/*}*/
+
+/*#nf-field-4:hover {*/
+/*    background: linear-gradient(90deg, #009245, #39b54a)!important; !* Fondo personalizado *!*/
+/*    color: white!important; !* Texto blanco *!*/
+/*    border-radius: 25px!important; !* Bordes ligeramente redondeados *!*/
+/*    border: none!important; !* Sin borde *!*/
+/*    width: 100%!important; !* Ancho completo *!*/
+/*    font-weight: bold;*/
+/*    font-size: 25px!important; !* Tamaño de fuente más grande en hover *!*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    display: flex; !* Para centrar *!*/
+/*    justify-content: center; !* Centrar horizontalmente *!*/
+/*    align-items: center; !* Centrar verticalmente *!*/
+/*    text-align: center; !* Asegurar el centrado del texto *!*/
+/*}*/
 
 
-.nf-form-content .list-select-wrap .nf-field-element input:not([type=button]),
-.nf-form-content .list-select-wrap .nf-field-element textarea {
-    background: transparent; 
-    border-radius: 0; 
-    color: #787878; 
-    transition: all .5s; 
-}
+/*!* Estilo del checkbox *!*/
+/*#nf-field-7 {*/
+/*    display: none; */
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+/*.checkbox-container.label-right label::before {*/
+/*    content: ""; */
+/*    padding-left: 0.4rem;*/
+/*    top: 100%; */
+/*    width: 23px; */
+/*    height: 23px; */
+/*    color: white !important;*/
+/*    font-size: medium !important;*/
+/*    font-weight: 400 !important;*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*}*/
+
+/*.checkbox-container.label-right label::after {*/
+/*    content: ""; */
+/*   margin-bottom: 1rem;*/
+/*    top: 50%; */
+/*    width: 23px !important;*/
+/*    height: 23px !important; */
+/*    border: 2px solid #ce3a3a !important; */
+/*    border-radius: 5px; */
+/*    background-color: #ce3a3a !important; */
+/*    font-family: 'Montserrat', sans-serif;*/
+/*}*/
 
 
-.nf-form-content .list-select-wrap .nf-field-element > div {
-    background: transparent !important; 
-    border: none !important; 
-}
 
-.nf-form-content .list-select-wrap .nf-field-element div {
-    background: transparent; 
-    border: none; 
-}
+/*!* Ajustar el símbolo de requerido *!*/
+/*.ninja-forms-req-symbol {*/
+/*    display: none; */
+/*}*/
+/*!* Ocultar símbolo de campo requerido *!*/
+/*.ninja-forms-req-symbol {*/
+/*    display: none; */
+/*}*/
 
-.nf-form-content #nf-field-1-container .nf-field .nf-field-element input {
-    padding-left: 40px!important;
-    font-size: 14px;
-    color: #333;
-    border: 1px solid #ccc;
-    background-image: url('./Assetss/Landing/Header_Form_Name.webp');
-    background-position: 10px center;
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-}
-.nf-form-content #nf-field-5-container .nf-field .nf-field-element input {
-    padding-left: 40px!important;
-    font-size: 14px;
-    color: #333;
-    border: 1px solid #ccc;
-    background-image: url('./Assetss/Landing/Header_Form_Phone.webp');
-    background-position: 10px center;
-    background-repeat: no-repeat;
-    background-size: 17px 20px;
-}
-.nf-form-content #nf-field-2-container .nf-field .nf-field-element input {
-    padding-left: 40px!important;
-    font-size: 14px;
-    color: #333;
-    border: 1px solid #ccc;
-    background-image: url('./Assetss/Landing/Header_Form_Mail.webp');
-    background-position: 10px center;
-    background-repeat: no-repeat;
-    background-size: 20px 15px;
-}
+/*!* Ocultar título del formulario *!*/
+/*#nf-form-title-1 {*/
+/*    display: none!important; !* Ocultar título *!*/
+/*}*/
 
-#nf-label-field-7 a{
-    color: white!important;
-    font-size: 12px!important;
-    outline: none!important;
-}
+/*!* Ocultar mensajes de error *!*/
+/*.nf-after-form-content {*/
+/*    display: none!important; !* Ocultar contenido después del formulario *!*/
+/*}*/
+
+/*.nf-error.field-wrap .nf-field-element:after {*/
+/*    display: none!important; !* Ocultar mensaje de error *!*/
+/*}*/
+
+/*!* Estilo del select *!*/
+
+/*.nf-form-content .list-select-wrap .nf-field-element {*/
+/*    background: white; */
+/*    border-radius: 10px; */
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+/*.nf-form-content .list-select-wrap .nf-field-element select {*/
+/*    background: transparent; */
+/*    border-radius: 10px; */
+/*    color: #000; */
+/*    padding: 10px; */
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    font-weight: 500;*/
+/*}*/
+
+
+/*.nf-form-content .list-select-wrap .nf-field-element > div {*/
+/*    background: transparent; */
+/*    border: none; */
+/*}*/
+
+
+/*.nf-form-content .list-select-wrap .nf-field-element input:not([type=button]),*/
+/*.nf-form-content .list-select-wrap .nf-field-element textarea {*/
+/*    background: transparent; */
+/*    border-radius: 0; */
+/*    color: #787878; */
+/*    transition: all .5s; */
+/*}*/
+
+
+/*.nf-form-content .list-select-wrap .nf-field-element > div {*/
+/*    background: transparent !important; */
+/*    border: none !important; */
+/*}*/
+
+/*.nf-form-content .list-select-wrap .nf-field-element div {*/
+/*    background: transparent; */
+/*    border: none; */
+/*}*/
+
+/*.nf-form-content #nf-field-1-container .nf-field .nf-field-element input {*/
+/*    padding-left: 40px!important;*/
+/*    font-size: 14px;*/
+/*    color: #333;*/
+/*    border: 1px solid #ccc;*/
+/*    background-image: url('./Assetss/Landing/Header_Form_Name.webp');*/
+/*    background-position: 10px center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 20px 20px;*/
+/*}*/
+/*.nf-form-content #nf-field-5-container .nf-field .nf-field-element input {*/
+/*    padding-left: 40px!important;*/
+/*    font-size: 14px;*/
+/*    color: #333;*/
+/*    border: 1px solid #ccc;*/
+/*    background-image: url('./Assetss/Landing/Header_Form_Phone.webp');*/
+/*    background-position: 10px center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 17px 20px;*/
+/*}*/
+/*.nf-form-content #nf-field-2-container .nf-field .nf-field-element input {*/
+/*    padding-left: 40px!important;*/
+/*    font-size: 14px;*/
+/*    color: #333;*/
+/*    border: 1px solid #ccc;*/
+/*    background-image: url('./Assetss/Landing/Header_Form_Mail.webp');*/
+/*    background-position: 10px center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 20px 15px;*/
+/*}*/
+
+/*#nf-label-field-7 a{*/
+/*    color: white!important;*/
+/*    font-size: 12px!important;*/
+/*    outline: none!important;*/
+/*}*/
