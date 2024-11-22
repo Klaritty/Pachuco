@@ -710,6 +710,14 @@ video {
   margin-top: 11.5rem;
 }
 
+.mt-\[11\.rem\] {
+  margin-top: 11.rem;
+}
+
+.mt-\[11\.7rem\] {
+  margin-top: 11.7rem;
+}
+
 .block {
   display: block;
 }
