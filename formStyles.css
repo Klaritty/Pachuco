@@ -144,12 +144,6 @@
     display: none!important; /* Ocultar mensaje de error */
 }
 
-/* Ajustar el símbolo de requerido 
-    .nf-pass.field-wrap .nf-field-element:after {
-        display: none!important; 
-    }
-        */
-
 /* Estilo del select */
 
 .nf-form-content .list-select-wrap .nf-field-element {
@@ -191,4 +185,41 @@
 .nf-form-content .list-select-wrap .nf-field-element div {
     background: transparent; 
     border: none; 
+}
+
+.nf-form-content #nf-field-1-container .nf-field .nf-field-element input {
+    padding-left: 40px!important;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ccc;
+    background-image: url('./Assetss/landing/Header_Form_Name.webp');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+.nf-form-content #nf-field-5-container .nf-field .nf-field-element input {
+    padding-left: 40px!important;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ccc;
+    background-image: url('./Assetss/landing/Header_Form_Phone.webp');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 17px 20px;
+}
+.nf-form-content #nf-field-2-container .nf-field .nf-field-element input {
+    padding-left: 40px!important;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ccc;
+    background-image: url('./Assetss/landing/Header_Form_Mail.webp');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 20px 15px;
+}
+
+#nf-label-field-7 a{
+    color: white!important;
+    font-size: 12px!important;
+    outline: none!important;
 }
