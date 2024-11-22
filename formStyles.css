@@ -6,18 +6,18 @@
 /*}*/
 
 /* Estilo de los inputs: Nombre, Email, Número, Empresa */
-/*.nf-form-content input.ninja-forms-field {*/
-/*    height: 50px!important; !* Altura de los inputs *!*/
-/*    background-color: #000000!important; !* Fondo negro *!*/
-/*    color: white!important; !* Texto blanco *!*/
-/*    border: 0.5px solid #ffdd96!important; !* Borde blanco *!*/
-/*    border-radius: 10px!important; !* Bordes ligeramente redondeados *!*/
-/*    margin-bottom: 10px!important; !* Espacio inferior *!*/
-/*    padding: 10px!important; !* Padding interno *!*/
-/*    font-size: 16px!important; !* Texto más grande *!*/
-/*    width: 100%!important; !* Ancho completo *!*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*}*/
+.nf-form-content input.ninja-forms-field {
+    height: 50px!important; /* Altura de los inputs */
+    background-color: #000000!important; /* Fondo negro */
+    color: white!important; /* Texto blanco */
+    border: 0.5px solid #ffdd96!important; /* Borde blanco */
+    border-radius: 10px!important; /* Bordes ligeramente redondeados */
+    margin-bottom: 10px!important; /* Espacio inferior */
+    padding: 10px!important; /* Padding interno */
+    font-size: 16px!important; /* Texto más grande */
+    width: 100%!important; /* Ancho completo */
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
