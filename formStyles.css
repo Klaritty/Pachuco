@@ -32,27 +32,27 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Ocultar contenido antes del formulario */
-.nf-before-form-content {
-    display: none!important;
-}
+/*!* Ocultar contenido antes del formulario *!*/
+/*.nf-before-form-content {*/
+/*    display: none!important;*/
+/*}*/
 
-/* Estilo de los labels */
-.nf-field-label label {
-    font-size: 12px!important; /* Tamaño de fuente */
-    color: white!important; /* Color blanco */
-    font-family: 'Montserrat', sans-serif; /* Fuente */
-}
+/*!* Estilo de los labels *!*/
+/*.nf-field-label label {*/
+/*    font-size: 12px!important; !* Tamaño de fuente *!*/
+/*    color: white!important; !* Color blanco *!*/
+/*    font-family: 'Montserrat', sans-serif; !* Fuente *!*/
+/*}*/
 
-/* Ajustar margen de los campos */
-.nf-field-container {
-    margin-bottom: 5px!important; /* Espacio entre campos */
-}
+/*!* Ajustar margen de los campos *!*/
+/*.nf-field-container {*/
+/*    margin-bottom: 5px!important; !* Espacio entre campos *!*/
+/*}*/
 
 
-#nf-field-6-wrap > .nf-field-elemt{
-    background: #000;
-}
+/*#nf-field-6-wrap > .nf-field-elemt{*/
+/*    background: #000;*/
+/*}*/
 
 #nf-field-4 {
     height: 50px!important; /* Altura del botón igual a los inputs */
