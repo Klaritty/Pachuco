@@ -6,15 +6,33 @@
 }
 
 /* Estilo de los inputs: Nombre, Email, Número, Empresa */
-/*.nf-form-content input.ninja-forms-field {*/
-/*    height: 50px!important; !* Altura de los inputs *!*/
-/*    border: 0.5px solid #ffdd96!important; !* Borde blanco *!*/
-/*    border-radius: 10px!important; !* Bordes ligeramente redondeados *!*/
-/*    margin-bottom: 10px!important; !* Espacio inferior *!*/
-/*    padding: 10px!important; !* Padding interno *!*/
-/*    font-size: 16px!important; !* Texto más grande *!*/
-/*    width: 100%!important; !* Ancho completo *!*/
-/*}*/
+.nf-form-content input#nf-field-1 {
+    height: 50px!important; /* Altura de los inputs */
+    border: 0.5px solid #ffdd96!important; /* Borde blanco */
+    border-radius: 10px!important; /* Bordes ligeramente redondeados */
+    margin-bottom: 10px!important; /* Espacio inferior */
+    padding: 10px!important; /* Padding interno */
+    font-size: 16px!important; /* Texto más grande */
+    width: 100%!important; /* Ancho completo */
+}
+.nf-form-content input#nf-field-5 {
+    height: 50px!important; /* Altura de los inputs */
+    border: 0.5px solid #ffdd96!important; /* Borde blanco */
+    border-radius: 10px!important; /* Bordes ligeramente redondeados */
+    margin-bottom: 10px!important; /* Espacio inferior */
+    padding: 10px!important; /* Padding interno */
+    font-size: 16px!important; /* Texto más grande */
+    width: 100%!important; /* Ancho completo */
+}
+.nf-form-content input#nf-field-2 {
+    height: 50px!important; /* Altura de los inputs */
+    border: 0.5px solid #ffdd96!important; /* Borde blanco */
+    border-radius: 10px!important; /* Bordes ligeramente redondeados */
+    margin-bottom: 10px!important; /* Espacio inferior */
+    padding: 10px!important; /* Padding interno */
+    font-size: 16px!important; /* Texto más grande */
+    width: 100%!important; /* Ancho completo */
+}
 
 .nf-field-element input {
     background-color: rgba(0, 0, 0, 0.6) !important;
